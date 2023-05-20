@@ -9,4 +9,5 @@ function insert_Row() {
 	tr.appendChild(td2);
 	let table = document.getElementById('sampleTable');
 	table.insertAdjacentElement('afterbegin', tr);
+	table.insertAdjacentElement('afterbegin', tr);
 }
